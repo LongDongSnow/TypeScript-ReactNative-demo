@@ -10,7 +10,7 @@ interface Props {
 
 export default ({ name, count = 1, onInc, onDec }: Props) => (
   <View style={styles.root}>
-    <Text>hello world</Text>
+    <Text>hello world ！!</Text>
     <Text>
       Counter {name}: {count}
     </Text>
